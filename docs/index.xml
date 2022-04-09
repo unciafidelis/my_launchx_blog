@@ -6,7 +6,19 @@
     <description>Recent content in Launch X Bitácora de viaje on Bitácora de Viaje de Alejandro Morgan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Feb 2022 18:16:21 -0600</lastBuildDate><atom:link href="https://unciafidelis.github.io/my_launchx_blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://unciafidelis.github.io/my_launchx_blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bitácora de viaje LaunchX</title>
+      <link>https://unciafidelis.github.io/my_launchx_blog/posts/post_1/</link>
+      <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unciafidelis.github.io/my_launchx_blog/posts/post_1/</guid>
+      <description>¡Hey!
+¡Hola de nuevo!
+Ahora hablaremos un poco de mi experiencia hasta ahora en el programa de Launch X, una gran experiencia que aún no termina y que ha sido accidentada, loca, alegre, vívida, grandiosa, con imitaciones graciosas, con invitados de alto rango, con mascotas interesantes, con una piña chevere, grandes comunicadores, libros, libros, libros y muchisisimo conocimiento valioso.
+Comenzamos con un curso relampago de Python, nuestra misión era simple: Crear pequeñas aplicaciones y saber darle seguimiento a las intrucciones dadas de manera puntual (algo que a la fecha de repente se me olvida y pues ahi voy a mandar commits en un fork en la master branch, siendo rechazado obviamente por que no era parte de las instrucciones y así&amp;hellip;).</description>
+    </item>
+    
     <item>
       <title>La cultura en el desarrollo de software</title>
       <link>https://unciafidelis.github.io/my_launchx_blog/posts/intro/</link>
