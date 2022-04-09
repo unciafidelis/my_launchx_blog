@@ -1,6 +1,6 @@
 ---
 title: "La cultura en el desarrollo de software"
-date: 2022-04-08
+date: 2022-02-21T18:16:21-06:00
 description: 'Si el camino es demasiado escarpado usa una escalera...'
 ---
 
