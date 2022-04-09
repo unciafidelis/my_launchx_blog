@@ -1,11 +1,11 @@
 ---
-title: 'Algo de mi'
+title: 'Yo'
 menu:
   main:
     name: "AboutMe"
 ---
 
-## Quien soy
+## Quien soy?
 
 Me llamo Alejandro Morgan (Sip como el pirata), Uso Facebook desde chavo, tengo un twitter que nunca uso y un instagram que utilicé mucho cuando andaba de lleno en la foto :) @aeonepix.
 
