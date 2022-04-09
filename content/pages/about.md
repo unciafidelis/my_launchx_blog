@@ -2,7 +2,7 @@
 title: 'Algo de mi'
 menu:
   main:
-    name: "Algo de mi"
+    name: "AboutMe"
 ---
 
 ## Quien soy
