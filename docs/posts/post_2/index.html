@@ -68,29 +68,30 @@ con la primer tabla, la tabla de headings.</p>
 <p>how to make a table in Markdown (Que!? creiste que no sabia inglés?)</p>
 <p>y me pasó directo a la respuesta, la página <a href="https://hackmd.io/s/how-to-create-table">https://hackmd.io/s/how-to-create-table</a>:</p>
 <p>con el ejemplo:</p>
+<p>html = markdown(s, extensions=[&lsquo;tables&rsquo;])</p>
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Quantity</th>
+<th style="text-align:center">Name</th>
+<th style="text-align:center">Quantity</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Apple</td>
-<td>3</td>
+<td style="text-align:center">Apple</td>
+<td style="text-align:center">3</td>
 </tr>
 <tr>
-<td>Egg</td>
-<td>12</td>
+<td style="text-align:center">Egg</td>
+<td style="text-align:center">12</td>
 </tr>
 </tbody>
 </table>
 <p>que en código sería:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown">|Name |Quantity|
-|-----|--------|
-|Apple|3       |
-|Egg  |12      |
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown">|Name|Quantity
+|:----:|:----:
+|Apple|3       
+|Egg  |12      
 </code></pre></div><p>Por cierto para que se vea el código solo tienen que utilizar lo siguiente:</p>
 <p>```markdown(aqui tambien puedes poner javascript por ejemplo y así le dará formato de javascript)
 aqui va el código de markdown
@@ -102,54 +103,54 @@ que se vean todas bonitas ahí, si no lo hacia solo verían el &ldquo;aqui va el
 <table>
 <thead>
 <tr>
-<th>Markdown</th>
-<th>HTML</th>
-<th>Rendered Output</th>
+<th style="text-align:center">Markdown</th>
+<th style="text-align:center">HTML</th>
+<th style="text-align:center">Rendered Output</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td># Heading</td>
-<td><!-- raw HTML omitted -->Heading<!-- raw HTML omitted --></td>
-<td><!-- raw HTML omitted -->Heading<!-- raw HTML omitted --></td>
+<td style="text-align:center"># Heading</td>
+<td style="text-align:center">Etiqueta H1</td>
+<td style="text-align:center"><!-- raw HTML omitted -->Heading<!-- raw HTML omitted --></td>
 </tr>
 <tr>
-<td>## Heading</td>
-<td><!-- raw HTML omitted -->Heading<!-- raw HTML omitted --></td>
-<td><!-- raw HTML omitted -->Heading<!-- raw HTML omitted --></td>
+<td style="text-align:center">## Heading</td>
+<td style="text-align:center">Etiqueta H2</td>
+<td style="text-align:center"><!-- raw HTML omitted -->Heading<!-- raw HTML omitted --></td>
 </tr>
 <tr>
-<td>### Heading</td>
-<td><!-- raw HTML omitted -->Heading<!-- raw HTML omitted --></td>
-<td><!-- raw HTML omitted -->Heading<!-- raw HTML omitted --></td>
+<td style="text-align:center">### Heading</td>
+<td style="text-align:center">Etiqueta H3</td>
+<td style="text-align:center"><!-- raw HTML omitted -->Heading<!-- raw HTML omitted --></td>
 </tr>
 <tr>
-<td>#### Heading</td>
-<td><!-- raw HTML omitted -->Heading<!-- raw HTML omitted --></td>
-<td><!-- raw HTML omitted -->Heading<!-- raw HTML omitted --></td>
+<td style="text-align:center">#### Heading</td>
+<td style="text-align:center">Etiqueta H4</td>
+<td style="text-align:center"><!-- raw HTML omitted -->Heading<!-- raw HTML omitted --></td>
 </tr>
 <tr>
-<td>##### Heading</td>
-<td><!-- raw HTML omitted -->Heading<!-- raw HTML omitted --></td>
-<td><!-- raw HTML omitted -->Heading<!-- raw HTML omitted --></td>
+<td style="text-align:center">##### Heading</td>
+<td style="text-align:center">Etiqueta H5</td>
+<td style="text-align:center"><!-- raw HTML omitted -->Heading<!-- raw HTML omitted --></td>
 </tr>
 <tr>
-<td>###### Heading</td>
-<td><!-- raw HTML omitted -->Heading<!-- raw HTML omitted --></td>
-<td><!-- raw HTML omitted -->Heading<!-- raw HTML omitted --></td>
+<td style="text-align:center">###### Heading</td>
+<td style="text-align:center">Etiqueta H6</td>
+<td style="text-align:center"><!-- raw HTML omitted -->Heading<!-- raw HTML omitted --></td>
 </tr>
 </tbody>
 </table>
 <p>La tabla es ligeramente diferente a la original pero para mi se entiende mejor je.
 Ahora el código:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown">| Markdown     |      HTML       | Rendered Output      |
-|--------------|-----------------|----------------------|
-|# Heading     | <span class="p">&lt;</span><span class="nt">H1</span><span class="p">&gt;</span>Heading<span class="p">&lt;</span><span class="nt">H1</span><span class="p">&gt;</span> | <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Heading<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>     |	
-|## Heading    | <span class="p">&lt;</span><span class="nt">H2</span><span class="p">&gt;</span>Heading<span class="p">&lt;</span><span class="nt">H2</span><span class="p">&gt;</span> | <span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span>Heading<span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>	|
-|### Heading   | <span class="p">&lt;</span><span class="nt">H3</span><span class="p">&gt;</span>Heading<span class="p">&lt;</span><span class="nt">H3</span><span class="p">&gt;</span> | <span class="p">&lt;</span><span class="nt">h3</span><span class="p">&gt;</span>Heading<span class="p">&lt;/</span><span class="nt">h3</span><span class="p">&gt;</span>	|
-|#### Heading  | <span class="p">&lt;</span><span class="nt">H4</span><span class="p">&gt;</span>Heading<span class="p">&lt;</span><span class="nt">H4</span><span class="p">&gt;</span> | <span class="p">&lt;</span><span class="nt">h4</span><span class="p">&gt;</span>Heading<span class="p">&lt;/</span><span class="nt">h4</span><span class="p">&gt;</span>	|
-|##### Heading | <span class="p">&lt;</span><span class="nt">H5</span><span class="p">&gt;</span>Heading<span class="p">&lt;</span><span class="nt">H5</span><span class="p">&gt;</span> | <span class="p">&lt;</span><span class="nt">h5</span><span class="p">&gt;</span>Heading<span class="p">&lt;/</span><span class="nt">h5</span><span class="p">&gt;</span>	|
-|###### Heading| <span class="p">&lt;</span><span class="nt">H6</span><span class="p">&gt;</span>Heading<span class="p">&lt;</span><span class="nt">H6</span><span class="p">&gt;</span> | <span class="p">&lt;</span><span class="nt">h6</span><span class="p">&gt;</span>Heading<span class="p">&lt;/</span><span class="nt">h6</span><span class="p">&gt;</span>	|
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown">|Markdown|HTML| Rendered Output   
+|:----:|:----:|:----:
+|# Heading     |Etiqueta H1|<span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Heading<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>  	
+|## Heading    |Etiqueta H2|<span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span>Heading<span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>	
+|### Heading   |Etiqueta H3|<span class="p">&lt;</span><span class="nt">h3</span><span class="p">&gt;</span>Heading<span class="p">&lt;/</span><span class="nt">h3</span><span class="p">&gt;</span>	
+|#### Heading  |Etiqueta H4|<span class="p">&lt;</span><span class="nt">h4</span><span class="p">&gt;</span>Heading<span class="p">&lt;/</span><span class="nt">h4</span><span class="p">&gt;</span>	
+|##### Heading |Etiqueta H5|<span class="p">&lt;</span><span class="nt">h5</span><span class="p">&gt;</span>Heading<span class="p">&lt;/</span><span class="nt">h5</span><span class="p">&gt;</span>	
+|###### Heading|Etiqueta H6|<span class="p">&lt;</span><span class="nt">h6</span><span class="p">&gt;</span>Heading<span class="p">&lt;/</span><span class="nt">h6</span><span class="p">&gt;</span>	
 </code></pre></div><p>Como podemos ver el simbolo numeral (el gatito pues) agrega un nivel al tamaño de la letra haciendola mas pequeña con cada numeral agregado,
 que como en la sintaxis de HTML, a medida que incrementa el número de H (&lt;H(número de h)&gt;) disminuye su tamaño.</p>
 <p>Observa que hay un espacio entre el numeral y el nombre del encabezado, si lo omites pasará esto:</p>
@@ -159,6 +160,10 @@ que como en la sintaxis de HTML, a medida que incrementa el número de H (&lt;H(
 <p>hay otra manera de hacer encabezados pero la neta nadie en su sano juicio la utilizaría&hellip; así que para que todos mantengamos cordura y practicidad
 quedémonos con este sencillo método.</p>
 <p>Ahora ya sabes hacer tablas y encabezados en Markdown! WHAT!?</p>
+<p>Edit: Al parecer tuve un problema con las tablas y el como se desplegaron en mi blog, así que hice una pequeña búsqueda en la
+documentación de HUGO en el apartado de tables a ver que pasa y pues hice la modificación para centrar los elementos
+dentro de las tablas, haré el commit y veremos como se ve en el blog.</p>
+<p>DIGO QUE JALA!</p>
 
     </div>
   </div>
