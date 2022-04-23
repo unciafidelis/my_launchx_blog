@@ -92,3 +92,5 @@ documentación de HUGO en el apartado de tables a ver que pasa y pues hice la mo
 dentro de las tablas, haré el commit y veremos como se ve en el blog.
 
 DIGO QUE JALA!
+
+Edit2: Vaya! al parecer sigue habiendo problema con el procesador de Markdown, seguiré buscando una solución a este problema... 
