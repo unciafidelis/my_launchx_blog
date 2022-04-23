@@ -21,14 +21,6 @@ jobs:
         rm -rf docs
     - name: Build drafts
       run: hugo -D
-    - name: Commit Update
-      run: |
-        echo ":: Renombrando nueva version ::"
-        mv public/ docs/
-        git config --global user.email "launchx@innovaccion.mx"
-        git config --global user.name "Launch X Backend Node JS"
-        git add .
-        git commit -m "GitHub Actions: Build ok"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
