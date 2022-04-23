@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://unciafidelis.github.io/my_launchx_blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>MarkDown Sintaxis básica</title>
+      <link>https://unciafidelis.github.io/my_launchx_blog/posts/post_2/</link>
+      <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://unciafidelis.github.io/my_launchx_blog/posts/post_2/</guid>
+      <description>MarkDown Sintaxis básica - Tablas y encabezados El arte oculto de escribir documentación de proyectos en github Para enseñarme a utilizar Markdown me estoy forzando a replicar cada aspecto de la página oficial https://www.markdownguide.org/basic-syntax/ pero mostrando el código (wink*), claro esto no será una tarea fácil, pero me concentraré en cada tema para que sea más digerible así que comencemos con la primer tabla, la tabla de headings.
+Para realizar esta tabla pues primero requiero de saber como hacer una tabla cierto?</description>
+    </item>
+    
+    <item>
       <title>Bitácora de viaje LaunchX</title>
       <link>https://unciafidelis.github.io/my_launchx_blog/posts/post_1/</link>
       <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
